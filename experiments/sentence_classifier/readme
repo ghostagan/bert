@@ -1,0 +1,4 @@
+使用data_utils.py，将excel表格中的数据转换为train.tsv/dev.tsv/test.tsv，现在默认这三个tsv为同一批数据。
+使用train_classifier.sh进行bert分类模型训练。（注意清空之前存留的模型）
+使用predict_classifier.sh进行结果预测，产生预测结果。
+使用result_ananlysis.py将标签不一致和概率较小的数据输出出来。
